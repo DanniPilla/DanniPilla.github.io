@@ -1,19 +1,35 @@
 header {
-    text-align: left;
+    font-family: Arial;
+    text-align: center;
+    margin: 20px;
 }
 
-.material-symbols-outlined{
-    color:hotpink;
-    
+.material-symbols-outlined {
+    color: black;
+    padding: 6px 6px;
+}
+
+#projectExamples {
+    height: 500px;
+    width: 800px;
     border-style: solid;
-    border-color: hotpink;
-
-    background-color: aliceblue;
- 
+    border-color: rgb(241, 91, 141);
 }
+
+main {
+    text-align: left;
+   
+}
+h2{
+    font-size: 50px;
+}
+.mainSubTitles {
+    text-align: center;
+}
+
 body {
     font-family: Arial;
-    background-color: #e3b6db;
+    background-image: linear-gradient(to bottom right, rgb(241, 91, 141), rgb(252, 214, 237));  
     text-align: center;
     margin: 20px;
 }
@@ -29,6 +45,24 @@ body {
 #Mail {
     border-radius: 50%;
     width: 50px;
-    height: 40px; 
-
+    height: 40px;
 }
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+    font-size: 16px;
+    margin: 4px 15px;
+    padding: 12px 14px;
+   border-radius: 5%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(241, 91, 141);
+    color: white;
+}
+
+  a:visited {
+    color: black;
+  }
